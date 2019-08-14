@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>HusseyCoding_TwitterReader</name>
+    <version>1.0.5</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Increase the social profile of your Magento site by easily adding store specific tweets.</summary>
+    <description>This extension seamlessly integrates with the latest Twitter API technology and allows you to quickly and easily add tweets, per store, to any page in any position.</description>
+    <notes>Fixed losing block order on cms edit page load</notes>
+    <authors><author><name>Hussey Coding</name><user>husseycoding</user><email>info@husseycoding.co.uk</email></author></authors>
+    <date>2015-08-26</date>
+    <time>10:13:18</time>
+    <contents><target name="magecommunity"><dir name="HusseyCoding"><dir name="TwitterReader"><dir name="Block"><file name="Tweets.php" hash="049d0934eeac08c235b39c71a1293910"/><file name="Verify.php" hash="68098cae4b409154a4aa618e5b2da6c2"/></dir><dir name="controllers"><file name="CallbackController.php" hash="4154dc3be629ca8b438e12b1a1e23511"/></dir><dir name="etc"><file name="adminhtml.xml" hash="909b1f48112a4c4b00a37e145041eadd"/><file name="config.xml" hash="f1b8d6a59b3dbcb9c4c9c08dd94196ce"/><file name="system.xml" hash="3609a56fbd345b8651066b5486d8de45"/></dir><dir name="Helper"><file name="Data.php" hash="01b6ef3fe4a5e33c7c24a8e4d1572b0b"/></dir><dir name="Model"><dir name="Config"><file name="CoreData.php" hash="ec734ef221f1c1527be82d7dd09ccf23"/></dir><file name="Manage.php" hash="c52b4b6af39cc8bececd0f6c6e6643e6"/><dir name="Mysql4"><dir name="Twitterreader"><file name="Collection.php" hash="d00dec73701177bdbe0b755a7cab65da"/></dir><file name="Twitterreader.php" hash="0ee1e85be7b2559ceff18c9ec9160f47"/></dir><file name="Observer.php" hash="355ab44cdb45102855b7fb4847aa489a"/><file name="Twitterreader.php" hash="0bcfbf3b1a569793e409cd7f1deec000"/></dir><dir name="sql"><dir name="twitterreader_setup"><file name="mysql4-install-1.0.0.php" hash="1e59e36f7e5eea1406e64d7f0099197b"/></dir></dir></dir><dir name="Common"><dir name="etc"><file name="system.xml" hash="6c9ba9f227b9adfc9abf97f17b46fdbf"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="HusseyCoding_TwitterReader.xml" hash="365441683cb1c3c5fef7569aab423dc0"/><file name="HusseyCoding_Common.xml" hash="31e82d3d9b3179c2fa9e002f9669da47"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="twitterreader.xml" hash="da55257b0be819190ce22e975f007a63"/></dir><dir name="template"><dir name="twitterreader"><file name="verify.phtml" hash="eab267b579bb5a419df3a2fbf31d397a"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="twitterreader.xml" hash="867abc35ab34bc33cbecf5362521d94a"/></dir><dir name="template"><dir name="twitterreader"><file name="tweets.phtml" hash="1aefa42a68f124df4571b26a4f3dfa80"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="twitterreader"><dir name="js"><file name="twitterreader.js" hash="4bdcd68a1648fde96cbd4f649ee07aa8"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="twitterreader.css" hash="6bdd8f39d0175c4e05d1f8804ef1f152"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
