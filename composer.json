@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/HusseyCoding_TwitterReader",
+    "name": "OpenMageModuleFostering\/HusseyCoding_TwitterReader",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "Increase the social profile of your Magento site by easily adding store specific tweets.",
     "authors": [
-    {
-        "name": "Hussey Coding",
-        "email": "info@husseycoding.co.uk"
-    }
-],
+        {
+            "name": "Hussey Coding",
+            "email": "info@husseycoding.co.uk"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
